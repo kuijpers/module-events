@@ -12,5 +12,5 @@
 */
 
 Route::prefix('events')->group(function() {
-    Route::get('/', 'EventsController@index');
+    Route::get('/', 'EventsController@index')->name('main.events');
 });

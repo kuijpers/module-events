@@ -1,5 +1,13 @@
 <?php
 
 return [
-    'name' => 'Events'
+    'name' => 'Events',
+
+	'main_routes' => [
+						'main.events',
+					],
+
+	'dashboard_routes' => [
+							'dashboard.index',
+							]
 ];
